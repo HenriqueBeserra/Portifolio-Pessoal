@@ -1,0 +1,47 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+ body {
+    background: linear-gradient(1.2turn, #655959, #477089);
+ }
+
+
+ section.cabeçalho {
+    display: flex;
+    align-items:center;
+    justify-content:space-around ;
+    background-color: rgba(220, 229, 245, 0.174);
+}
+    
+    
+
+.profilePhoto {
+    margin: 20px;
+    width: 80px;
+    border-radius: 45px;
+    border: solid 0.5 #4310a8;
+}
+
+nav .links {
+    display: flex;
+    flex-direction: row;
+}
+    
+    
+
+.links {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.links a{
+    
+     color: black;
+        
+}
