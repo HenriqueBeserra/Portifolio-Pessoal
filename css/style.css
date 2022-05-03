@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Rajdhani&display=swap');
+
 * {
     text-decoration: none;
     margin: 0;
@@ -7,18 +8,19 @@
 }
 
 body {
-    background-position: absolute;
+    position: inherit;
     background-repeat: no-repeat;
-    background-image: linear-gradient(0.35turn, #1a1a1a, rgba(54, 54, 54, 0.662),hsla(254, 100%, 50%, 0.932) 120%);
-    background-color: white ;
     font-family: 'Oswald', sans-serif;
+    background-image: linear-gradient(0.35turn, #1a1a1a, rgba(201, 70, 9, 0.788) 22%,hsla(254, 100%, 50%, 0.932) 120%); 
+    background-color: aliceblue;
 }
+    
     
 section.cabeçalho {
     display: flex;
     align-items:center;
     justify-content:space-around ;
-    background-color: rgba(0, 0, 0, 0.299);
+    background-color: rgba(0, 0, 0, 0.486);
 }
 
 .profilePhoto {
@@ -37,8 +39,8 @@ nav .links {
     display: flex;
     gap: 150px;
     font-size: 20px;
-    
 }
+    
 
 .links a:hover {
 font-size: 20.8px;
@@ -54,15 +56,22 @@ transform: translateY(-10px);
 .main {
     display: flex;
     justify-content: center;
-    background-color: white;
+    align-items: center;
+    background-color: aliceblue;
 }
-
-div p.bemVindos {
+    
+.name {
     display: flex;
-    margin: 5%;
-    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    margin-top: 25%;
+    font-size: 35px;
+    color: rgb(56, 9, 99);
 }
+    
 
-img.img {
-    height: 80px;
-}
+
+   
+
+
