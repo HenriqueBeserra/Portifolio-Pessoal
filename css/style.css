@@ -92,12 +92,12 @@ section.container {
     display: flex;
     margin: 120px;
     flex-direction: column;
-    border: black 0.5px solid;
+    border: rgb(12, 45, 136) 0.5px solid;
     padding-bottom:  100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-image: linear-gradient(0.35turn, #ebebeb,hsla(254, 67%, 82%, 0.664) 90%);
-    color: rgb(0, 0, 0);
+    padding-left: 80px;
+    padding-right: 80px;
+    background-image: linear-gradient(0.35turn, #3c7883,hsla(244, 98%, 18%, 0.664) 90%);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     border-radius: 20px;
 }
@@ -107,6 +107,7 @@ section.container {
     align-items: center;
     justify-content: center;
     padding: 10px;
+    color: rgb(255, 242, 255);
 }
 
 
