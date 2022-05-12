@@ -116,9 +116,21 @@ section.container {
     transform: translateY(18px);
 }
 
- footer {
-    background-color: aliceblue;
- }  
+section.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.seta {
+    display: flex;
+    width: 35px;
+}
+
+p.see {
+    display: flex;
+    margin-top: 10px;
+}
 
 p.casa {
     margin-top: 100%;
