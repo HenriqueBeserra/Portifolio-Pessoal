@@ -94,24 +94,25 @@ nav .links {
     
 section.container {
     display: flex;
-    margin: 120px;
-    justify-content: flex-start;
+    margin-top: 190px;
+    margin: 200px;
+    justify-content: center;
     flex-direction: column;
-    color: rgb(3, 30, 82);
     font-size: 22px;
     border-radius: 20px;
+    color: rgb(51,45,56);
 }
 
-.saibaMais {
-    display:flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 10px;
-    color: rgb(12, 16, 80);
+#Icone {
+    display: flex; 
+    color: rgba(9, 9, 184, 0.596);
+    padding: 2%;
+    font-size: 30px;
 }
-
-
-
+  
+#Icone:hover {
+    transform: translateY(18px);
+}
 
    
 
