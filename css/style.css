@@ -11,14 +11,14 @@ body {
     position: inherit;
     background-repeat: no-repeat;
     font-family: 'Cairo', sans-serif;
-    background-image: linear-gradient(0.35turn, #1a1a1a,hsla(254, 100%, 50%, 0.932) 90%); 
     background-color: aliceblue;
 }
-    
-    
+
+
 section.cabeçalho {
     display: flex;
     align-items:center;
+    background-image: linear-gradient(0.35turn, #1a1a1a,hsla(254, 100%, 50%, 0.932) 90%); 
     background-color: rgba(0, 0, 0, 0.486);
 }
     
@@ -114,6 +114,15 @@ section.container {
     transform: translateY(18px);
 }
 
-   
+ footer {
+    background-color: aliceblue;
+ }  
 
+p.casa {
+    margin-top: 100%;
+    display: flex; 
+    justify-content: center;
+    background-color: rgb(9, 134, 243);
+    
+}
 
