@@ -18,20 +18,20 @@ body {
 section.cabeçalho {
     display: flex;
     align-items:center;
-    background-image: linear-gradient(0.35turn, #1a1a1a,hsla(254, 100%, 50%, 0.932) 90%); 
+    background-image: linear-gradient(0.35turn, #141414,hsla(254, 95%, 42%, 0.952) 200%); 
     background-color: rgba(0, 0, 0, 0.486);
 }
     
 section.logo {
     display: flex;
     flex-direction: column;
-    
 }
 
 .logo{
     color: rgb(255, 255, 255);
     font-size: 15px;
     font-family: 'Kanit', sans-serif;
+    transition: all .5s ease-out;
 }
 
 .profilePhoto {
@@ -52,11 +52,13 @@ nav .links {
     font-size: 20px;
     gap: 10px;
     margin-left: 35%;
+    transition: all .8s ease-out;
+
 }
     
 .links a:hover {
-    font-size: 20.8px;
-    transform: translateY(-10px);
+    font-size: 1.1em;
+    transform:  translateY(-10px);
 }
 
 .links a{
