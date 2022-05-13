@@ -4,7 +4,7 @@
     let icone = document.querySelector('#Icone')
     icone.addEventListener("click", () => {
         console.log("DEsceu")
-        window.scrollTo(0,1500)
+        window.scrollTo(0,1500);
+
     })
 } ) ()
-

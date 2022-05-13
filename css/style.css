@@ -53,12 +53,12 @@ nav .links {
     gap: 10px;
     margin-left: 35%;
     transition: all .8s ease-out;
-
+    padding: 10%;
 }
     
 .links a:hover {
-    font-size: 1.1em;
-    transform:  translateY(-10px);
+    font-size: 1em;
+    transform:  translateY(-18%);
 }
 
 .links a{
@@ -109,29 +109,38 @@ section.container {
     display: flex; 
     color: rgba(9, 9, 184, 0.596);
     padding: 2%;
-    font-size: 30px;
+    
 }
-  
-#Icone:hover {
-    transform: translateY(18px);
-}
-
-section.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .seta {
     display: flex;
     width: 35px;
 }
+  
+#Icone:hover {
+    transform: translateY(16px);
+
+    width: 40px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+
 
 p.see {
     display: flex;
     margin-top: 10px;
 }
 
+.footer:hover{
+    color: #275466b9;
+
+}
 p.casa {
     margin-top: 100%;
     display: flex; 
