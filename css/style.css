@@ -16,12 +16,15 @@ body {
 
 
 section.cabeçalho {
-    display: flex;
+   display: flex;
     align-items:center;
     background-image: linear-gradient(0.35turn, #141414,hsla(254, 95%, 42%, 0.952) 200%); 
     background-color: rgba(0, 0, 0, 0.486);
+    position: fixed;
+    width: 100%;
 }
-    
+
+
 section.logo {
     display: flex;
     flex-direction: column;
@@ -55,7 +58,7 @@ nav .links {
     transition: all .8s ease-out;
     padding: 10%;
 }
-    
+
 .links a:hover {
     font-size: 1em;
     transform:  translateY(-18%);
@@ -63,10 +66,10 @@ nav .links {
 
 .links a{
     margin: 25px;
-     color: rgb(255, 255, 255);
-     border-bottom: white solid 0.4px;   
+    color: rgb(255, 255, 255);
+    border-bottom: white solid 0.4px;   
 }
-    
+
 .main {
     display: flex;
     align-items: center;
@@ -83,7 +86,7 @@ nav .links {
     
 .name {
     display: flex;
-    margin-top: 25%;
+    margin-top: 60%;
     font-size: 50px;
     color: rgb(51, 45, 56);
 }
@@ -96,7 +99,7 @@ nav .links {
     
 section.container {
     display: flex;
-    margin-top: 190px;
+    margin-top: 150px;
     margin: 150px;
     justify-content: center;
     flex-direction: column;
@@ -108,7 +111,7 @@ section.container {
 #Icone {
     display: flex; 
     color: rgba(9, 9, 184, 0.596);
-    padding: 2%;
+    padding: 4%;
     
 }
 .seta {
