@@ -99,8 +99,8 @@ nav .links {
     
 section.container {
     display: flex;
-    margin-top: 150px;
-    margin: 150px;
+    margin-top: 190px;
+    margin: 120px;
     justify-content: center;
     flex-direction: column;
     font-size: 22px;
