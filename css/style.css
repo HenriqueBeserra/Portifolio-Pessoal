@@ -121,7 +121,7 @@ section.container {
 }
   
 #Icone:hover {
-    transform: translateY(16px) 9s;
+    transform: translateY(16px) ;
     width: 40px;
 }
 
