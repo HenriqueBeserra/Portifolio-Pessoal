@@ -63,6 +63,7 @@ nav .links {
 .links a:hover {
     font-size: 1em;
     transform:  translateY(-18%);
+    transition-delay: 0ms, 250ms;
 }
 
 .links a{
